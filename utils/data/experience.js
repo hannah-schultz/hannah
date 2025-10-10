@@ -9,7 +9,7 @@ export const experiences = [
     id: 2,
     title: "IT and Database Coordinator",
     company: "Coalition for Christian Outreach",
-    duration: "(Jan 2023 - OCt 2023)"
+    duration: "(Jan 2023 - Oct 2023)"
   },
   {
     id: 3,
