@@ -1,26 +1,9 @@
-const path = require('path')
- 
-module.exports = {
-  sassOptions: {
-    includePaths: [path.join(__dirname, 'styles')],
-  },
-  images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'res.cloudinary.com',
-        pathname: '**',
-      },
-      {
-        protocol: 'https',
-        hostname: 'media.dev.to',
-        pathname: '**',
-      },
-      {
-        protocol: 'https',
-        hostname: 'media2.dev.to',
-        pathname: '**',
-      },
-    ],
-  },
-}
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export',        // static export
+  trailingSlash: true,     // ensures URLs end with '/'
+  images: { unoptimized: true },  // disables image optimization for static deploys
+  assetPrefix: '/',        // leading slash ensures CSS, JS, fonts load
+};
+
+module.exports = nextConfig;
