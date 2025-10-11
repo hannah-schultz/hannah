@@ -8,7 +8,7 @@ import blender from '../app/assets/svg/skills/blender.svg';
 import bootstrap from '../app/assets/svg/skills/bootstrap.svg';
 import bulma from '../app/assets/svg/skills/bulma.svg';
 import c from '../app/assets/svg/skills/c.svg';
-import canva from '../app/assets/svg/skills/canva.svg';
+import canva from '/app/assets/svg/skills/canva.svg';
 import capacitorjs from '../app/assets/svg/skills/capacitorjs.svg';
 import coffeescript from '../app/assets/svg/skills/coffeescript.svg';
 import cplusplus from '../app/assets/svg/skills/cplusplus.svg';
