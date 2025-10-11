@@ -1,4 +1,10 @@
 export const educations = [
+ { 
+  id: 3,
+  title: "UX Design",
+  duration: "2025 - Present",
+  institution: "IBM SkillsBuild",
+},
   {
     id: 2,
     title: "Data Analytics Certificate",
