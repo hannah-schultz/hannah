@@ -26,6 +26,8 @@
     "sharp": "^0.33.5"
   },
   "devDependencies": {
+    "@types/node": "^24.7.2",
+    "@types/react": "^19.2.2",
     "autoprefixer": "latest",
     "eslint": "latest",
     "eslint-config-next": "15.1.1",
