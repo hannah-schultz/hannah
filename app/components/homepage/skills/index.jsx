@@ -1,9 +1,16 @@
 // @flow strict
 
 import { skillsData } from "@/utils/data/skills";
-import { skillsImage } from "@/utils/skill-image";
+import {skillsImage } from "@/utils/skill-image";
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
+
+{skillsData.map((skill, id) => (
+  <div key={id}>
+    <Image src={skillsImage(skill)} alt={skill} width={40} height={40} />
+    <p>{skill}</p>
+  </div>
+))}
 
 function Skills() {
   return (
