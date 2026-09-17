@@ -1,8 +1,8 @@
 export const personalData = {
   name: "Hannah Schultz",
-  profile: '/profile.jpg',
+  profile: '/Hannah Schultz-3033.jpg',
   designation: "Web Developer",
-  description: "I blend code, creativity, and strategy to build digital experiences that connect and inform. With a background in computer science and marketing technology, I’ve developed everything from web dashboards to smarter email campaigns — all driven by data and designed with the user in mind. I’m passionate about using technology to simplify the complex and make every interaction more impactful.",
+  description: "I blend code, creativity, design, and strategy to build digital experiences that are intuitive and impactful. With a background in computer science and marketing technology, I enjoy turning complex challenges into thoughtful, user-focused solutions. Whether I’m training for a race, finding a new trail, or planning a camping trip, I’m always ready to make the most of whatever adventure is ahead.",
   email: 'machannah@icloud.com',
   phone: '+17246834494',
   address: 'Pittsburgh, PA',
