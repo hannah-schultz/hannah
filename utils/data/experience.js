@@ -2,7 +2,7 @@ export const experiences = [
   {
     id: 1,
     title: 'Frontend Developer',
-    company: "O2 Digital Creative",
+    company: "O2 Digital Creative Agency",
     duration: "(Oct 2026 - Present)"
   },
   {
